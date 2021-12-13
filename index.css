@@ -1,0 +1,17 @@
+body {
+    background: #4865B1;
+    height: 1200px;
+    width: 1600px;
+    border-radius: 0px;
+    position: relative;
+}
+
+.circle {
+    background: #F9D6A3;
+    height: 548px;
+    width: 566px;
+    border-radius: 320px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 330px;
+}
