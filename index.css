@@ -1,17 +1,109 @@
-body {
-    background: #4865B1;
-    height: 1200px;
-    width: 1600px;
-    border-radius: 0px;
-    position: relative;
-}
-
-.circle {
-    background: #F9D6A3;
-    height: 548px;
-    width: 566px;
-    border-radius: 320px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 330px;
-}
+ body {
+     background: #4865B1;
+     height: 1200px;
+     width: 1600px;
+     border-radius: 0px;
+     position: relative;
+ }
+ 
+ .circle {
+     position: absolute;
+     background: #F9D6A3;
+     height: 548px;
+     width: 566px;
+     border-radius: 320px;
+     border: 1px solid #000000;
+     box-sizing: border-box;
+     border-radius: 330px;
+ }
+ 
+ .container {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 36px;
+     position: absolute;
+     width: 430px;
+     height: 440px;
+     left: 241px;
+     top: 558px;
+     background: #3453A3;
+     border-radius: 8px;
+     font-family: Poppins;
+     font-style: normal;
+     font-weight: normal;
+ }
+ 
+ .log-in {
+     color: #FFFFFF;
+     font-weight: bold;
+     font-size: 26px;
+     line-height: 39px;
+     margin-left: 20px;
+ }
+ 
+ form {
+     padding: 0px;
+     position: static;
+     width: 358px;
+     height: 308px;
+     left: 36px;
+     top: 96px;
+ }
+ 
+ p.email {
+     width: 444px;
+     height: 24px;
+     left: 0px;
+     top: 0px;
+     font-size: 16px;
+     line-height: 24px;
+     color: #FFFFFF;
+     margin-left: 20px;
+     margin-bottom: 0px;
+ }
+ 
+ .email-in {
+     padding: 20px;
+     width: 100%;
+     height: 56px;
+     border: 1px solid #8CA5E6;
+     box-sizing: border-box;
+     border-radius: 4px;
+     margin: 0px 15px;
+     text-align: center;
+ }
+ 
+ input.email-in {
+     background-color: #3453A3;
+     color: #FFFFFF;
+ }
+ 
+ button.email-in {
+     color: #001A5C;
+     margin-top: 15px;
+ }
+ 
+ .sign {
+     padding: 0px;
+     margin-left: 15px;
+     margin-top: 60px;
+ }
+ 
+ .sign-up {
+     padding: 16px;
+     position: static;
+     border: 2px solid rgba(255, 255, 255, 0.4);
+     box-sizing: border-box;
+     border-radius: 4px;
+     font-size: 16px;
+     line-height: 24px;
+     background: #3453A3;
+ }
+ 
+ h2 {
+     font-weight: bold;
+     font-size: 20px;
+     line-height: 30px;
+     color: #FFFFFF;
+ }
