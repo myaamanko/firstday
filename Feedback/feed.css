@@ -1,33 +1,37 @@
 body {
     width: 100%;
-    height: 100%;
+    height: 400px;
     background: #F2F6FF;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 204px 429px
 }
 
 .container {
     position: absolute;
     left: 429px;
-    top: 90px;
+    top: 70px;
 }
 
 .rectangle {
     padding: 75px;
     background: #E0E9FE;
     position: absolute;
-    width: 200px;
-    height: 270px;
+    width: 300px;
+    height: 410px;
     border-radius: 20px;
 }
 
-.rectan {
+.rectangle2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
     position: absolute;
-    width: 320px;
-    height: 385px;
+    width: 450px;
+    height: 530px;
     left: 40px;
     top: 40px;
     background: #F8FAFF;
@@ -64,8 +68,9 @@ h1 {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    width: 319px;
+    width: 427px;
     height: 105px;
+    margin-left: 10px;
 }
 
 .box1,
@@ -120,4 +125,90 @@ p.emoji {
 h2.emoji {
     font-weight: 500;
     font-size: 14px;
+}
+
+.reason-container {
+    position: static;
+    height: 111px;
+    width: 427px;
+    margin-left: 10px;
+}
+
+.reason {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #121C51;
+    margin-bottom: 0px;
+}
+
+textarea {
+    height: 82px;
+    background: #FFFFFF;
+    border: 2px solid #A3B8E8;
+    box-sizing: border-box;
+    border-radius: 5px
+}
+
+.submit-container {
+    padding: 0px;
+    width: 425.5px;
+    height: 165px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.policy {
+    padding: 0px;
+    width: 419px;
+    height: 58px;
+}
+
+input[type=checkbox] {
+    appearance: none;
+    /* -webkit-appearance: none; */
+    height: 21px;
+    width: 21px;
+    background-color: #FF71A4;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    position: relative;
+    width: 387px;
+    height: 21px;
+    left: 0px;
+    top: -8px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #121C51;
+}
+
+
+/* input[type=checkbox]:after {
+    font-family: "Font Awesome 6 Beta 3 Free";
+    content: "\f00c";
+    color: white;
+    font-weight: 900px;
+} */
+
+input[type=checkbox]:hover {
+    background-color: #121C51;
+}
+
+input[type=checkbox]:checked {
+    background-color: royalblue;
+}
+
+input[type=checkbox]::after {
+    display: block;
 }

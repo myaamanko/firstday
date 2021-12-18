@@ -11,6 +11,9 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@200&display=swap');
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
     <link rel="stylesheet" href="feed.css">
     <title>Feedback</title>
 </head>
@@ -18,41 +21,40 @@
 <body>
     <div class="container">
         <div class="rectangle"></div>
-        <div class="rectan">
+        <div class="rectangle2">
             <section class="give-feedback">
                 <h1>Give feedback</h1>
                 <p class="give-p">What do you think of the issue search experience within Jira projects?</p>
             </section>
             <section class="emoji-container">
-
                 <div class="box1">
                     <p class="emoji">😰</p>
-                    <h2 class="emoji">Terrible
-                    </h2>
+                    <h2 class="emoji">Terrible </h2>
                 </div>
                 <div class="box2">
                     <p class="emoji">😟</p>
-                    <h2 class="emoji">Bad
-                    </h2>
+                    <h2 class="emoji">Bad </h2>
                 </div>
                 <div class="box3">
                     <p class="emoji">😐</p>
-                    <h2 class="emoji">Okay
-                    </h2>
+                    <h2 class="emoji">Okay </h2>
                 </div>
                 <div class="box4">
                     <p class="emoji">😊</p>
-                    <h2 class="emoji">Good
-                    </h2>
+                    <h2 class="emoji">Good </h2>
                 </div>
                 <div class="box5">
                     <p class="emoji">😁</p>
-                    <h2 class="emoji">Amazing
-                    </h2>
+                    <h2 class="emoji">Amazing </h2>
                 </div>
-
+            </section>
+            <section class="reason-container">
+                <h2 class="reason">What are the main reasons for your rating?</h2><textarea rows="4" cols="55" name="description"></textarea></section>
+            <section class="submit-container">
+                <div class="policy"><input type="checkbox" class="check"><label for="checkbox" class="checkbox">I may be contacted about this feedback. Privacy Policy</p></span></label></div>
             </section>
         </div>
+    </div>
     </div>
     <script src="feed.js"></script>
 </body>
