@@ -11,8 +11,6 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@200&display=swap');
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
 
     <link rel="stylesheet" href="feed.css">
     <title>Feedback</title>
@@ -50,8 +48,17 @@
             </section>
             <section class="reason-container">
                 <h2 class="reason">What are the main reasons for your rating?</h2><textarea rows="4" cols="55" name="description"></textarea></section>
+            <section class="accept">
+                <div class="policy">
+                    <input type="checkbox" class="check">
+                    <label for="checkbox" class="checkbox">I may be contacted about this feedback <span>Privacy Policy.</span> </label>
+                    <input type="checkbox" class="check">
+                    <label for="checkbox" class="checkbox">I’d like to help improve by joining the <span>Reasearch Group.</span></label>
+                </div>
+            </section>
             <section class="submit-container">
-                <div class="policy"><input type="checkbox" class="check"><label for="checkbox" class="checkbox">I may be contacted about this feedback. Privacy Policy</p></span></label></div>
+                <button class="submit">Submit</button>
+                <button class="cancel">Cancel</button>
             </section>
         </div>
     </div>
