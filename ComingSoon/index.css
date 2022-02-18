@@ -79,7 +79,7 @@ img {
     letter-spacing: 1px;
 }
 
-@media (max-width) {
+@media (max-width:500px) {
     .container {
         padding: 20px;
     }
